@@ -3,10 +3,23 @@ Key changes to themeparks NPM module.
 
 ## v4.0.0
 
-* 4.9.13 Minor update to update Chessington ride data (thanks @OkoWsc #103)
-* 4.9.12 Minor update added Wicker Man to Alton Towers park (thanks @OkoWsc #102)
-* 4.9.11 Hotfix for SixFlags parks - use correct timezone for operating hours (see #101)
-* 4.9.10 Updated Disneyland Tokyo Resort API to use their new JSON API method
+* 4.7.8 ! Fix for Efteling POI data (thanks @renssies #130)
+* 4.7.7 Add support for rides under refurbishment for Efteling (thanks @janvankampen #126)
+* 4.7.6 Add support for Down rides at Efteling (thanks @janvankampen #124)
+* 4.7.5 ! Fix for Tokyo Disney Resort API version bump (thanks @dotaguro #123)
+* 4.7.4 ! Fix for Tokyo Disney Resort API version bump (see #121)
+* 4.7.3 Minor hotfix for missing attraction name for Astrix Parc (thanks @skyforce77 #120)
+* 4.7.2 ! Fix Efteling API update (see #119)
+* 4.7.1 Minor update for Tokyo Disney Resort parks. Now using their new app API (see #115)
+* 4.7.0 ! Removed SeaWorld Parks from the API, as they no longer offer wait times outside of the park !
+* 4.6.17 Hotfix for Parc Asterix not returning valid wait times for rides (see #113)
+* 4.6.16 Hotfix for Tokyo Disney Resort parks (see #110)
+* 4.6.15 Add California's Great America to supported parks (thanks @jkap #112)
+* 4.6.14 Add Dollywood and Silver Dollar City to supported parks (thanks @rambleraptor #107)
+* 4.6.13 Minor update to update Chessington ride data (thanks @OkoWsc #103)
+* 4.6.12 Minor update added Wicker Man to Alton Towers park (thanks @OkoWsc #102)
+* 4.6.11 Hotfix for SixFlags parks - use correct timezone for operating hours (see #101)
+* 4.6.10 Updated Disneyland Tokyo Resort API to use their new JSON API method
 * 4.6.9 Minor update adding HTTPS proxy support (as well as SOCKS support)
 * 4.6.8 Optional Minor Hotfix to re-attempt JSON decodes if HTTP request fails
 * 4.6.7 Hotfix for Tokyo Disneyland geo-location check URL changing (see #100)

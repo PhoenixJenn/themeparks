@@ -1,6 +1,6 @@
 # themeparks (previously wdwJS)
 
-An unofficial API library for accessing ride wait times and park opening times for many theme parks around the world, including Disney, Universal and SeaWorld parks.
+An unofficial API library for accessing ride wait times and park opening times for many theme parks around the world, including Disney, Universal, and many other parks!
 
 [![Build Status](https://travis-ci.org/cubehouse/themeparks.svg?branch=master)](https://travis-ci.org/cubehouse/themeparks) [![npm version](https://badge.fury.io/js/themeparks.svg)](https://badge.fury.io/js/themeparks) [![Dependency Status](https://beta.gemnasium.com/badges/github.com/cubehouse/themeparks.svg)](https://beta.gemnasium.com/projects/github.com/cubehouse/themeparks)
 [![npm history](https://nodei.co/npm-dl/themeparks.png)](https://www.npmjs.com/package/themeparks/)
@@ -126,12 +126,6 @@ If you wish to use themeparks with a proxy, you can set a proxy in the library s
 * Universal Volcano Bay (ThemeParks.Parks.UniversalVolcanoBay)
 * Universal Studios Hollywood (ThemeParks.Parks.UniversalStudiosHollywood)
 * Universal Studios Singapore (ThemeParks.Parks.UniversalStudiosSingapore)
-* Seaworld Orlando (ThemeParks.Parks.SeaworldOrlando)
-* Seaworld San Antonio (ThemeParks.Parks.SeaworldSanAntonio)
-* Seaworld San Diego (ThemeParks.Parks.SeaworldSanDiego)
-* Busch Gardens - Tampa Bay (ThemeParks.Parks.BuschGardensTampaBay)
-* Busch Gardens - Williamsburg (ThemeParks.Parks.BuschGardensWilliamsburg)
-* Sesame Place (ThemeParks.Parks.SesamePlace)
 * Europa Park (ThemeParks.Parks.EuropaPark)
 * Six Flags Over Texas (ThemeParks.Parks.SixFlagsOverTexas)
 * Six Flags Over Georgia (ThemeParks.Parks.SixFlagsOverGeorgia)
@@ -155,11 +149,14 @@ If you wish to use themeparks with a proxy, you can set a proxy in the library s
 * Chessington World Of Adventures (ThemeParks.Parks.ChessingtonWorldOfAdventures)
 * Parc-Asterix (ThemeParks.Parks.AsterixPark)
 * Hershey Park (ThemeParks.Parks.HersheyPark)
+* Silver Dollar City (ThemeParks.Parks.SilverDollarCity)
+* Dollywood (ThemeParks.Parks.Dollywood)
 * Knott's Berry Farm (ThemeParks.Parks.KnottsBerryFarm)
 * Cedar Point (ThemeParks.Parks.CedarPoint)
 * Carowinds (ThemeParks.Parks.Carowinds)
 * Canada's Wonderland (ThemeParks.Parks.CanadasWonderland)
 * Kings Island (ThemeParks.Parks.KingsIsland)
+* California's Great America (ThemeParks.Parks.CaliforniasGreatAmerica)
 * Efteling (ThemeParks.Parks.Efteling)
 
 <!-- END_SUPPORTED_PARKS_LIST -->
@@ -186,12 +183,6 @@ If you wish to use themeparks with a proxy, you can set a proxy in the library s
 |Universal Volcano Bay|&#10003;|&#10003;|&#10007;|
 |Universal Studios Hollywood|&#10003;|&#10003;|&#10007;|
 |Universal Studios Singapore|&#10003;|&#10003;|&#10007;|
-|Seaworld Orlando|&#10003;|&#10003;|&#10007;|
-|Seaworld San Antonio|&#10003;|&#10003;|&#10007;|
-|Seaworld San Diego|&#10003;|&#10003;|&#10007;|
-|Busch Gardens - Tampa Bay|&#10003;|&#10003;|&#10007;|
-|Busch Gardens - Williamsburg|&#10003;|&#10003;|&#10007;|
-|Sesame Place|&#10003;|&#10003;|&#10007;|
 |Europa Park|&#10003;|&#10003;|&#10007;|
 |Six Flags Over Texas|&#10003;|&#10003;|&#10007;|
 |Six Flags Over Georgia|&#10003;|&#10003;|&#10007;|
@@ -215,11 +206,14 @@ If you wish to use themeparks with a proxy, you can set a proxy in the library s
 |Chessington World Of Adventures|&#10003;|&#10003;|&#10007;|
 |Parc-Asterix|&#10003;|&#10003;|&#10003;|
 |Hershey Park|&#10003;|&#10003;|&#10007;|
+|Silver Dollar City|&#10003;|&#10003;|&#10007;|
+|Dollywood|&#10003;|&#10003;|&#10007;|
 |Knott's Berry Farm|&#10003;|&#10003;|&#10007;|
 |Cedar Point|&#10003;|&#10003;|&#10007;|
 |Carowinds|&#10003;|&#10003;|&#10007;|
 |Canada's Wonderland|&#10003;|&#10003;|&#10007;|
 |Kings Island|&#10003;|&#10003;|&#10007;|
+|California's Great America|&#10003;|&#10003;|&#10007;|
 |Efteling|&#10003;|&#10003;|&#10007;|
 
 <!-- END_PARK_FEATURES_SUPPORTED -->
@@ -320,12 +314,6 @@ Prints:
 * Universal Volcano Bay [(28°27′44.28″N, 81°28′14.52″W)]: (America/New_York)
 * Universal Studios Hollywood [(34°8′14.14″N, 118°21′19.86″W)]: (America/Los_Angeles)
 * Universal Studios Singapore [(1°15′15.30″N, 103°49′25.67″E)]: (Asia/Singapore)
-* Seaworld Orlando [(28°24′41.04″N, 81°27′47.88″W)]: (America/New_York)
-* Seaworld San Antonio [(29°27′30.56″N, 98°41′59.45″W)]: (America/Chicago)
-* Seaworld San Diego [(32°45′51.49″N, 117°13′35.19″W)]: (America/Los_Angeles)
-* Busch Gardens - Tampa Bay [(28°2′0.94″N, 82°25′14.52″W)]: (America/New_York)
-* Busch Gardens - Williamsburg [(37°14′14.01″N, 76°38′42.46″W)]: (America/New_York)
-* Sesame Place [(40°11′8.40″N, 74°52′17.26″W)]: (America/New_York)
 * Europa Park [(48°16′8.15″N, 7°43′17.61″E)]: (Europe/Berlin)
 * Six Flags Over Texas [(32°45′17.95″N, 97°4′13.33″W)]: (America/Chicago)
 * Six Flags Over Georgia [(33°46′14.08″N, 84°33′5.36″W)]: (America/New_York)
@@ -349,11 +337,14 @@ Prints:
 * Chessington World Of Adventures [(51°20′58.56″N, 0°18′52.45″W)]: (Europe/London)
 * Parc-Asterix [(49°8′9.75″N, 2°34′21.96″E)]: (Europe/Paris)
 * Hershey Park [(40°17′15.65″N, 76°39′30.88″W)]: (America/New_York)
+* Silver Dollar City [(36°40′5.44″N, 93°20′18.84″W)]: (America/Chicago)
+* Dollywood [(35°47′43.18″N, 83°31′51.19″W)]: (America/New_York)
 * Knott's Berry Farm [(33°50′39.12″N, 117°59′54.96″W)]: (America/Los_Angeles)
 * Cedar Point [(41°28′42.24″N, 82°40′45.48″W)]: (America/New_York)
 * Carowinds [(35°6′16.20″N, 80°56′21.84″W)]: (America/New_York)
 * Canada's Wonderland [(43°50′34.80″N, 79°32′20.40″W)]: (America/Toronto)
 * Kings Island [(39°20′40.92″N, 84°16′6.96″W)]: (America/New_York)
+* California's Great America [(37°23′52.08″N, 121°58′28.98″W)]: (America/Los_Angeles)
 * Efteling [(51°38′59.67″N, 5°2′36.82″E)]: (Europe/Amsterdam)
 
 <!-- END_PARK_TIMEZONE_LIST -->
@@ -428,3 +419,7 @@ If you're using themeparks for a project, please let me know! I'd love to see wh
 * [Disneyland California Wait Times](https://apps.getpebble.com/en_US/application/5656424b4431a2ce6c00008d)
 * [Disneyland Paris Wait Times](https://apps.getpebble.com/en_US/application/55e25e8d3ea1fb6fa30000bd)
 * [Disney World Wait Times](https://apps.getpebble.com/en_US/application/54bdb77b54845b1bf40000bb)
+
+## Canary
+
+This project is unofficial, and is not endorsed and approved by any of the supported theme parks. No theme park operator has approved, nor requested removal of their parks from this project. Support for parks may stop working at any moment.
